@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bck"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/greetTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello USER!!" />
+
+    <LinearLayout
+        android:id="@+id/ll1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/layout1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.4"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageview"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="0.75" >
+            </ImageView>
+
+            <LinearLayout
+                android:id="@+id/layout2"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.25" >
+
+               
+            </LinearLayout>
+        </LinearLayout>
+       
+
+        <ListView
+            android:id="@+id/listview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.6"
+            android:cacheColorHint="@android:color/transparent" >
+        </ListView>
+    </LinearLayout>
+
+</LinearLayout>

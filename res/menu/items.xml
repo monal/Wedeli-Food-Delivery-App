@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+<item
+        android:id="@+id/order"
+        android:title="Place Order"
+        android:showAsAction="ifRoom|withText"
+        
+    />
+ 
+    <item
+        android:id="@+id/search"
+        android:title="Search"
+        android:showAsAction="ifRoom|collapseActionView"
+        android:actionLayout="@layout/search_layout"
+    />
+</menu>

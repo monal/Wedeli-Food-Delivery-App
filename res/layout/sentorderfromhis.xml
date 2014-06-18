@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent" >
+
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        android:background="#80f0f000"
+        android:padding="10dp" 
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/menuHistTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Text"
+            android:padding="10dp"
+            android:layout_margin="5dp"/>
+
+        <EditText
+            android:id="@+id/quantityET"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:ems="4"
+            android:hint="Quantity"
+            android:inputType="number"
+            android:padding="10dp" 
+           >
+
+            <requestFocus />
+        </EditText>
+
+        <Button
+            android:id="@+id/reorderBut"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="Re-Order" />
+    </LinearLayout>
+
+</RelativeLayout>

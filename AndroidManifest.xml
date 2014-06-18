@@ -1,0 +1,61 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.smapp.wedelis"
+    android:versionCode="1"
+    android:versionName="1.0" xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="15" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <application
+        android:screenOrientation="landscape"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        
+        <activity
+            android:name=".SplashScreen"
+            android:label="@string/title_activity_main"
+            android:screenOrientation="landscape"
+             android:noHistory="true"  >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+	            <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+         </activity>
+         <activity android:name=".MainActivity"
+             android:screenOrientation="landscape"
+             android:noHistory="true"/>
+         <activity
+             android:screenOrientation="landscape" 
+             android:name=".json_parse"
+             android:noHistory="false" ></activity>
+         <activity 
+             android:name=".ExpandableListViewActivity"
+             android:screenOrientation="landscape"
+             android:noHistory="false"
+            ></activity>
+         
+         <activity
+             android:screenOrientation="landscape" 
+             android:name=".RegisterAct"
+             android:noHistory="true"></activity>
+         
+         <activity
+              android:screenOrientation="landscape"
+             android:name=".History"
+             android:noHistory="false"></activity>
+         <activity
+              android:screenOrientation="landscape"
+             android:name=".Mpage"
+             android:noHistory="true"></activity>
+         <activity android:name=".SendOrderFromHis"
+             android:theme="@style/transparent"
+             android:screenOrientation="landscape"></activity>
+      
+             
+    </application>
+
+</manifest>

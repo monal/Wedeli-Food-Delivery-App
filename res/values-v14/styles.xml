@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <style name="AppTheme" parent="@android:style/Theme.Holo.Light.DarkActionBar">
+         <item name="android:actionBarStyle">@style/MyActionBarStyle</item>
+    </style>
+    <style name="MyActionBarStyle" parent="@android:style/Widget.Holo.ActionBar" >
+        <item name="android:displayOptions"></item>
+    </style>
+    <style name="transparent" parent="@android:style/Theme.Translucent.NoTitleBar"></style>
+    
+</resources>

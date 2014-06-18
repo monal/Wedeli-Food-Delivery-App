@@ -1,0 +1,33 @@
+<resources>
+
+    <string name="app_name">WeDeli</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">WeDeli</string>
+    <string name = "loginBut">Login</string>
+    <string name="password">Password</string>
+    <string name="bits_email_id">BITS Email ID</string>
+    <string name="not_registered_yet">Register Here</string>
+    <string name="name">Name</string>
+    <string name="your_phone_number">Your Phone Number</string>
+    <string name="register">Register</string>
+    <string name="clear">Clear</string>
+    <string name="ipadd">http://10.0.2.2/wedeli/</string>
+    <string name="urlLogin">login.php</string>
+    <string name="urlRegister">form_reg.php</string>
+    <string name="getCategory">getCat.php</string>
+    <string name = "getCatMenu">catMenu.php</string>
+    <string name="hostel">Hostel</string>
+    <string name="room_no">Room No.</string>
+    <string name="mamma_mia">Mamma mia</string>
+    <string name="pleasure_pie">Pleasure Pie</string>
+    <string name="kashi_diary">Kashi Diary</string>
+    <string name="temptations">Temptations</string>
+    <string name="re_enter_password">RE-Enter Password</string>
+     <string name="get_categories_url">http://10.0.2.2/wedeli/getCat.php</string>
+     <string name="get_dishes_url">http://10.0.2.2/wedeli/catMenu.php</string>
+     <string name="confirm_order_url">http://10.0.2.2/wedeli/insert_order.php</string>
+   
+    
+
+</resources>

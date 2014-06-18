@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/df">
+
+    <ListView android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="0.8"
+    android:orientation="vertical"
+    android:id="@+id/finallist"/>
+    
+         
+    <LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:orientation="horizontal"
+    android:layout_weight="0.1"
+    android:id="@+id/total">
+    <TextView android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/totaltxt"
+    android:text="Total:"
+    android:layout_weight="1"/>
+     <TextView android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/totaltv"
+    
+    android:layout_weight="1"/>
+    
+        
+    </LinearLayout>
+    <LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:orientation="horizontal"
+    android:layout_weight="0.1"
+    android:id="@+id/totalbtn">
+    <Button android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/cancelbtn"
+    android:text="Cancel"
+    android:layout_weight="1"/>
+     <Button android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/confirmbtn"
+    android:text="Confirm Order"
+    android:layout_weight="1"/>
+    
+        
+    </LinearLayout>
+    
+
+</LinearLayout>

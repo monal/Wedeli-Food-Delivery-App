@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ty"
+    android:orientation="vertical"
+    android:gravity="bottom" >
+    <TextView 
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#996600"
+        android:textSize="25dp"
+        android:text="Your order has been confirmed"
+        android:typeface="serif"
+        android:gravity="center"
+        />
+
+    <Button
+         android:layout_marginTop="50dp"
+        android:id="@+id/returnbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#996600"
+        android:text="Return to menu" />
+
+   <Button
+       android:layout_marginTop="15dp"
+        android:id="@+id/exitbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#996600"
+        android:text="Exit" />
+
+    </LinearLayout>
